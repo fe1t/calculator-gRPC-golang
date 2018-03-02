@@ -29,7 +29,7 @@ func argParser(n1 string, n2 string) (int32, int32) {
 
 func main() {
 	if len(os.Args) != 3 {
-		log.Fatalf("Supply 2 args(n1, n2)")
+            log.Fatalf("2 numbers expected: n1 n2")
 	}
 
 	n1, n2 := argParser(os.Args[1], os.Args[2])
