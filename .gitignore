@@ -6,6 +6,3 @@
 
 # Unignore all dirs
 !*/
-
-# Ignore *.pb.go
-proto/*.pb.go
